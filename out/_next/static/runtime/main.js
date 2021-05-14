@@ -6480,7 +6480,7 @@ function connect(options) {
       error.name = err.name;
       error.stack = err.stack; // __NEXT_DIST_DIR is provided by webpack
 
-      source_map_support_1.rewriteStacktrace(error, "/Users/macservicethailand/Desktop/React/reh_scan/.next");
+      source_map_support_1.rewriteStacktrace(error, "/Users/macservicethailand/Desktop/React/reh_scan_test/.next");
       return error;
     }
   };

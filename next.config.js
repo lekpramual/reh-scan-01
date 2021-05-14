@@ -1,22 +1,9 @@
-if (typeof require !== 'undefined') {
-  require.extensions['.less'] = file => {};
-}
-
-const withLess = require('@zeit/next-less'),
-  nextConfig = {
-    //target: 'serverless',
-    env: {
-      weatherApi: '',
-      mapBoxApi: ''
-    },
-    onDemandEntries: {
-      maxInactiveAge: 1000 * 60 * 60,
-      pagesBufferLength: 5
-    },
-    lessLoaderOptions: {
-      javascriptEnabled: true
-    },
-    webpack: config => config
-  };
-
-module.exports = withLess(nextConfig);
+const debug = process.env.NODE_ENV !== "production";
+module.exports = {
+  exportPathMap: function() {
+    return {
+      "/": { page: "/" }
+    };
+  },
+  assetPrefix: !debug ? "https://lekpramual-io.github.io/reh-scan-01/" : ""
+};

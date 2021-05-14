@@ -59,7 +59,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var _this = undefined,
-    _jsxFileName = "/Users/macservicethailand/Desktop/React/reh_scan/components/Signup.js";
+    _jsxFileName = "/Users/macservicethailand/Desktop/React/reh_scan_test/components/Signup.js";
 
 
 
@@ -75,7 +75,7 @@ var Option = antd_lib_select__WEBPACK_IMPORTED_MODULE_10___default.a.Option;
 var dateFormat = "YYYY-MM-DD";
 var Content = styled_components__WEBPACK_IMPORTED_MODULE_15__["default"].div.withConfig({
   displayName: "Signup__Content",
-  componentId: "sc-18d5tkc-0"
+  componentId: "sc-1pwzho5-0"
 })(["max-width:400px;z-index:2;min-width:300px;"]);
 
 function handleChange(value) {
@@ -48379,10 +48379,10 @@ exports.formatWithValidation = formatWithValidation;
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fsignup&absolutePagePath=%2FUsers%2Fmacservicethailand%2FDesktop%2FReact%2Freh_scan%2Fpages%2Fsignup.js!./":
-/*!*************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fsignup&absolutePagePath=%2FUsers%2Fmacservicethailand%2FDesktop%2FReact%2Freh_scan%2Fpages%2Fsignup.js ***!
-  \*************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fsignup&absolutePagePath=%2FUsers%2Fmacservicethailand%2FDesktop%2FReact%2Freh_scan_test%2Fpages%2Fsignup.js!./":
+/*!******************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fsignup&absolutePagePath=%2FUsers%2Fmacservicethailand%2FDesktop%2FReact%2Freh_scan_test%2Fpages%2Fsignup.js ***!
+  \******************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -80968,7 +80968,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _components_Signup__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Signup */ "./components/Signup.js");
 var _this = undefined,
-    _jsxFileName = "/Users/macservicethailand/Desktop/React/reh_scan/pages/signup.js";
+    _jsxFileName = "/Users/macservicethailand/Desktop/React/reh_scan_test/pages/signup.js";
 
 
 
@@ -80988,14 +80988,14 @@ var SignupPage = function SignupPage() {
 
 /***/ }),
 
-/***/ 2:
-/*!*****************************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2Fsignup&absolutePagePath=%2FUsers%2Fmacservicethailand%2FDesktop%2FReact%2Freh_scan%2Fpages%2Fsignup.js ***!
-  \*****************************************************************************************************************************************************/
+/***/ 10:
+/*!**********************************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2Fsignup&absolutePagePath=%2FUsers%2Fmacservicethailand%2FDesktop%2FReact%2Freh_scan_test%2Fpages%2Fsignup.js ***!
+  \**********************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fsignup&absolutePagePath=%2FUsers%2Fmacservicethailand%2FDesktop%2FReact%2Freh_scan%2Fpages%2Fsignup.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fsignup&absolutePagePath=%2FUsers%2Fmacservicethailand%2FDesktop%2FReact%2Freh_scan%2Fpages%2Fsignup.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fsignup&absolutePagePath=%2FUsers%2Fmacservicethailand%2FDesktop%2FReact%2Freh_scan_test%2Fpages%2Fsignup.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fsignup&absolutePagePath=%2FUsers%2Fmacservicethailand%2FDesktop%2FReact%2Freh_scan_test%2Fpages%2Fsignup.js!./");
 
 
 /***/ }),
@@ -81011,5 +81011,5 @@ module.exports = dll_829b10deddf10e1653a8;
 
 /***/ })
 
-},[[2,"static/runtime/webpack.js"]]]));;
+},[[10,"static/runtime/webpack.js"]]]));;
 //# sourceMappingURL=signup.js.map

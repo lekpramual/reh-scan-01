@@ -1,5 +1,345 @@
 ((window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/scans/list.js"],{
 
+/***/ "./demos/scan/list/main.js":
+/*!*********************************!*\
+  !*** ./demos/scan/list/main.js ***!
+  \*********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var antd_lib_card__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! antd/lib/card */ "./node_modules/antd/lib/card/index.js");
+/* harmony import */ var antd_lib_card__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(antd_lib_card__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var antd_lib_divider__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! antd/lib/divider */ "./node_modules/antd/lib/divider/index.js");
+/* harmony import */ var antd_lib_divider__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(antd_lib_divider__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/slicedToArray */ "./node_modules/@babel/runtime-corejs2/helpers/esm/slicedToArray.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! next/router */ "./node_modules/next/dist/client/router.js");
+/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(next_router__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _lib_withauth__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../lib/withauth */ "./lib/withauth.js");
+/* harmony import */ var _search__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./search */ "./demos/scan/list/search.js");
+/* harmony import */ var _table__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./table */ "./demos/scan/list/table.js");
+
+
+
+
+var _this = undefined,
+    _jsxFileName = "/Users/macservicethailand/Desktop/React/reh_scan_test/demos/scan/list/main.js";
+
+
+
+
+
+
+
+var main = function main() {
+  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_3__["useState"])([]),
+      _useState2 = Object(_babel_runtime_corejs2_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_2__["default"])(_useState, 2),
+      state = _useState2[0],
+      setState = _useState2[1];
+
+  Object(react__WEBPACK_IMPORTED_MODULE_3__["useEffect"])(function () {
+    if (Object(_lib_withauth__WEBPACK_IMPORTED_MODULE_5__["withauth"])() === undefined) {
+      next_router__WEBPACK_IMPORTED_MODULE_4___default.a.push("/signup");
+    }
+
+    setState(Object(_lib_withauth__WEBPACK_IMPORTED_MODULE_5__["withauth"])() || undefined);
+  }, []);
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(antd_lib_card__WEBPACK_IMPORTED_MODULE_0___default.a, {
+    bodyStyle: {
+      padding: 0
+    },
+    id: "components-button-demo",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 5
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(antd_lib_divider__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    orientation: "left",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 7
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("middle", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23,
+      columnNumber: 9
+    }
+  }, "\u0E02\u0E49\u0E2D\u0E21\u0E39\u0E25\u0E01\u0E32\u0E23\u0E2A\u0E41\u0E01\u0E19 :", state !== undefined ? "".concat(state.label, " (").concat(state.value, ")") : "")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
+    className: "p-4",
+    style: {
+      textAlign: "center"
+    },
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28,
+      columnNumber: 7
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_search__WEBPACK_IMPORTED_MODULE_6__["default"], {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29,
+      columnNumber: 9
+    }
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
+    className: "p-4",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31,
+      columnNumber: 7
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_table__WEBPACK_IMPORTED_MODULE_7__["default"], {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32,
+      columnNumber: 9
+    }
+  })));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (main);
+
+/***/ }),
+
+/***/ "./demos/scan/list/search.js":
+/*!***********************************!*\
+  !*** ./demos/scan/list/search.js ***!
+  \***********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var antd_lib_row__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! antd/lib/row */ "./node_modules/antd/lib/row/index.js");
+/* harmony import */ var antd_lib_row__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(antd_lib_row__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var antd_lib_button__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! antd/lib/button */ "./node_modules/antd/lib/button/index.js");
+/* harmony import */ var antd_lib_button__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(antd_lib_button__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react_feather_dist_icons_search__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-feather/dist/icons/search */ "./node_modules/react-feather/dist/icons/search.js");
+/* harmony import */ var react_feather_dist_icons_search__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_feather_dist_icons_search__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var antd_lib_col__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! antd/lib/col */ "./node_modules/antd/lib/col/index.js");
+/* harmony import */ var antd_lib_col__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(antd_lib_col__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var antd_lib_date_picker__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! antd/lib/date-picker */ "./node_modules/antd/lib/date-picker/index.js");
+/* harmony import */ var antd_lib_date_picker__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(antd_lib_date_picker__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var moment_locale_th__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! moment/locale/th */ "./node_modules/moment/locale/th.js");
+/* harmony import */ var moment_locale_th__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(moment_locale_th__WEBPACK_IMPORTED_MODULE_6__);
+
+
+
+
+
+
+var _this = undefined,
+    _jsxFileName = "/Users/macservicethailand/Desktop/React/reh_scan_test/demos/scan/list/search.js";
+
+
+
+var RangePicker = antd_lib_date_picker__WEBPACK_IMPORTED_MODULE_4___default.a.RangePicker; // const Search = Input.Search;
+
+var search = function search() {
+  var onChange = function onChange(date, dateString) {
+    console.log(date, dateString);
+  };
+
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(antd_lib_row__WEBPACK_IMPORTED_MODULE_0___default.a, {
+    gutter: 24,
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17,
+      columnNumber: 5
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(antd_lib_col__WEBPACK_IMPORTED_MODULE_3___default.a, {
+    xs: 24,
+    sm: 24,
+    md: 20,
+    style: {
+      margin: 2
+    },
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 7
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(RangePicker, {
+    style: {
+      width: "100%"
+    },
+    placeholder: ["วันที่เริ่มต้น", "วันที่สิ้นสุด"],
+    onChange: onChange,
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 9
+    }
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(antd_lib_col__WEBPACK_IMPORTED_MODULE_3___default.a, {
+    xs: 24,
+    sm: 24,
+    md: 3,
+    style: {
+      margin: 2
+    },
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29,
+      columnNumber: 7
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(antd_lib_button__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    type: "primary",
+    block: true,
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30,
+      columnNumber: 9
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(react_feather_dist_icons_search__WEBPACK_IMPORTED_MODULE_2___default.a, {
+    size: 20,
+    strokeWidth: 1,
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31,
+      columnNumber: 11
+    }
+  }), " \u0E04\u0E49\u0E19\u0E2B\u0E32")));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (search);
+
+/***/ }),
+
+/***/ "./demos/scan/list/table.js":
+/*!**********************************!*\
+  !*** ./demos/scan/list/table.js ***!
+  \**********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var antd_lib_table__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! antd/lib/table */ "./node_modules/antd/lib/table/index.js");
+/* harmony import */ var antd_lib_table__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(antd_lib_table__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_feather_dist_icons_log_out__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-feather/dist/icons/log-out */ "./node_modules/react-feather/dist/icons/log-out.js");
+/* harmony import */ var react_feather_dist_icons_log_out__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_feather_dist_icons_log_out__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react_feather_dist_icons_log_in__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-feather/dist/icons/log-in */ "./node_modules/react-feather/dist/icons/log-in.js");
+/* harmony import */ var react_feather_dist_icons_log_in__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_feather_dist_icons_log_in__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_3__);
+
+
+
+
+var _this = undefined,
+    _jsxFileName = "/Users/macservicethailand/Desktop/React/reh_scan_test/demos/scan/list/table.js";
+
+
+
+var table = function table() {
+  //const [state, setState] = useState([]);
+  var columns = [{
+    title: "วันที่",
+    dataIndex: "date"
+  }, {
+    title: "เวลา",
+    dataIndex: "time"
+  }, {
+    title: "สถานะ",
+    key: "สถานะ",
+    dataIndex: "status",
+    render: function render(status) {
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("span", {
+        style: {
+          textAlign: "center"
+        },
+        __self: _this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 24,
+          columnNumber: 9
+        }
+      }, status === "เข้า" ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(react_feather_dist_icons_log_in__WEBPACK_IMPORTED_MODULE_2___default.a, {
+        color: "#52c41a",
+        size: 20,
+        strokeWidth: 1,
+        __self: _this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 26,
+          columnNumber: 13
+        }
+      }) : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(react_feather_dist_icons_log_out__WEBPACK_IMPORTED_MODULE_1___default.a, {
+        color: "#eb2f96",
+        size: 20,
+        strokeWidth: 1,
+        __self: _this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 28,
+          columnNumber: 13
+        }
+      }));
+    }
+  }, {
+    title: "สถานที่",
+    dataIndex: "location"
+  }]; // const data = [];
+  // for (let i = 1; i < 1000; ++i) {
+  //   data.push({
+  //     key: i,
+  //     date: "19 เม.ย. 2564",
+  //     time: "08:20",
+  //     status: "เข้า",
+  //     location: "ตึกจุฬาภรณ์"
+  //   });
+  // }
+
+  var data = [{
+    key: "1",
+    date: "19 เม.ย. 2564",
+    time: "08:20",
+    status: "เข้า",
+    location: "ศูนย์คอมพิวเตอร์"
+  }, {
+    key: "2",
+    date: "19 เม.ย. 2564",
+    time: "16:20",
+    status: "ออก",
+    location: "ศูนย์คอมพิวเตอร์"
+  }];
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(antd_lib_table__WEBPACK_IMPORTED_MODULE_0___default.a, {
+    columns: columns,
+    dataSource: data,
+    size: "small",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 68,
+      columnNumber: 10
+    }
+  });
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (table);
+
+/***/ }),
+
 /***/ "./lib/withauth.js":
 /*!*************************!*\
   !*** ./lib/withauth.js ***!
@@ -50519,10 +50859,10 @@ exports.formatWithValidation = formatWithValidation;
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fscans%2Flist&absolutePagePath=%2FUsers%2Fmacservicethailand%2FDesktop%2FReact%2Freh_scan%2Fpages%2Fscans%2Flist.js!./":
-/*!*************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fscans%2Flist&absolutePagePath=%2FUsers%2Fmacservicethailand%2FDesktop%2FReact%2Freh_scan%2Fpages%2Fscans%2Flist.js ***!
-  \*************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fscans%2Flist&absolutePagePath=%2FUsers%2Fmacservicethailand%2FDesktop%2FReact%2Freh_scan_test%2Fpages%2Fscans%2Flist.js!./":
+/*!******************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fscans%2Flist&absolutePagePath=%2FUsers%2Fmacservicethailand%2FDesktop%2FReact%2Freh_scan_test%2Fpages%2Fscans%2Flist.js ***!
+  \******************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -82033,6 +82373,138 @@ module.exports = (__webpack_require__(/*! dll-reference dll_829b10deddf10e1653a8
 
 /***/ }),
 
+/***/ "./node_modules/react-feather/dist/icons/log-in.js":
+/*!*********************************************************!*\
+  !*** ./node_modules/react-feather/dist/icons/log-in.js ***!
+  \*********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+var _react2 = _interopRequireDefault(_react);
+
+var _propTypes = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+
+var _propTypes2 = _interopRequireDefault(_propTypes);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _objectWithoutProperties(obj, keys) { var target = {}; for (var i in obj) { if (keys.indexOf(i) >= 0) continue; if (!Object.prototype.hasOwnProperty.call(obj, i)) continue; target[i] = obj[i]; } return target; }
+
+var LogIn = function LogIn(props) {
+  var color = props.color,
+      size = props.size,
+      otherProps = _objectWithoutProperties(props, ['color', 'size']);
+
+  return _react2.default.createElement(
+    'svg',
+    _extends({
+      xmlns: 'http://www.w3.org/2000/svg',
+      width: size,
+      height: size,
+      viewBox: '0 0 24 24',
+      fill: 'none',
+      stroke: color,
+      strokeWidth: '2',
+      strokeLinecap: 'round',
+      strokeLinejoin: 'round'
+    }, otherProps),
+    _react2.default.createElement('path', { d: 'M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4' }),
+    _react2.default.createElement('polyline', { points: '10 17 15 12 10 7' }),
+    _react2.default.createElement('line', { x1: '15', y1: '12', x2: '3', y2: '12' })
+  );
+};
+
+LogIn.propTypes = {
+  color: _propTypes2.default.string,
+  size: _propTypes2.default.oneOfType([_propTypes2.default.string, _propTypes2.default.number])
+};
+
+LogIn.defaultProps = {
+  color: 'currentColor',
+  size: '24'
+};
+
+exports.default = LogIn;
+
+/***/ }),
+
+/***/ "./node_modules/react-feather/dist/icons/log-out.js":
+/*!**********************************************************!*\
+  !*** ./node_modules/react-feather/dist/icons/log-out.js ***!
+  \**********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+var _react2 = _interopRequireDefault(_react);
+
+var _propTypes = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+
+var _propTypes2 = _interopRequireDefault(_propTypes);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _objectWithoutProperties(obj, keys) { var target = {}; for (var i in obj) { if (keys.indexOf(i) >= 0) continue; if (!Object.prototype.hasOwnProperty.call(obj, i)) continue; target[i] = obj[i]; } return target; }
+
+var LogOut = function LogOut(props) {
+  var color = props.color,
+      size = props.size,
+      otherProps = _objectWithoutProperties(props, ['color', 'size']);
+
+  return _react2.default.createElement(
+    'svg',
+    _extends({
+      xmlns: 'http://www.w3.org/2000/svg',
+      width: size,
+      height: size,
+      viewBox: '0 0 24 24',
+      fill: 'none',
+      stroke: color,
+      strokeWidth: '2',
+      strokeLinecap: 'round',
+      strokeLinejoin: 'round'
+    }, otherProps),
+    _react2.default.createElement('path', { d: 'M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4' }),
+    _react2.default.createElement('polyline', { points: '16 17 21 12 16 7' }),
+    _react2.default.createElement('line', { x1: '21', y1: '12', x2: '9', y2: '12' })
+  );
+};
+
+LogOut.propTypes = {
+  color: _propTypes2.default.string,
+  size: _propTypes2.default.oneOfType([_propTypes2.default.string, _propTypes2.default.number])
+};
+
+LogOut.defaultProps = {
+  color: 'currentColor',
+  size: '24'
+};
+
+exports.default = LogOut;
+
+/***/ }),
+
 /***/ "./node_modules/react-feather/dist/icons/search.js":
 /*!*********************************************************!*\
   !*** ./node_modules/react-feather/dist/icons/search.js ***!
@@ -86374,219 +86846,38 @@ module.exports = function(module) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return list; });
-/* harmony import */ var antd_lib_card__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! antd/lib/card */ "./node_modules/antd/lib/card/index.js");
-/* harmony import */ var antd_lib_card__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(antd_lib_card__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var antd_lib_table__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! antd/lib/table */ "./node_modules/antd/lib/table/index.js");
-/* harmony import */ var antd_lib_table__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(antd_lib_table__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var antd_lib_row__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! antd/lib/row */ "./node_modules/antd/lib/row/index.js");
-/* harmony import */ var antd_lib_row__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(antd_lib_row__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var antd_lib_button__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! antd/lib/button */ "./node_modules/antd/lib/button/index.js");
-/* harmony import */ var antd_lib_button__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(antd_lib_button__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var react_feather_dist_icons_search__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-feather/dist/icons/search */ "./node_modules/react-feather/dist/icons/search.js");
-/* harmony import */ var react_feather_dist_icons_search__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react_feather_dist_icons_search__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var antd_lib_col__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! antd/lib/col */ "./node_modules/antd/lib/col/index.js");
-/* harmony import */ var antd_lib_col__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(antd_lib_col__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var antd_lib_divider__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! antd/lib/divider */ "./node_modules/antd/lib/divider/index.js");
-/* harmony import */ var antd_lib_divider__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(antd_lib_divider__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/slicedToArray */ "./node_modules/@babel/runtime-corejs2/helpers/esm/slicedToArray.js");
-/* harmony import */ var antd_lib_date_picker__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! antd/lib/date-picker */ "./node_modules/antd/lib/date-picker/index.js");
-/* harmony import */ var antd_lib_date_picker__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(antd_lib_date_picker__WEBPACK_IMPORTED_MODULE_8__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_9__);
-/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! next/router */ "./node_modules/next/dist/client/router.js");
-/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(next_router__WEBPACK_IMPORTED_MODULE_10__);
-/* harmony import */ var _lib_withauth__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../../lib/withauth */ "./lib/withauth.js");
-/* harmony import */ var moment__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! moment */ "./node_modules/moment/moment.js");
-/* harmony import */ var moment__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(moment__WEBPACK_IMPORTED_MODULE_12__);
-/* harmony import */ var moment_locale_th__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! moment/locale/th */ "./node_modules/moment/locale/th.js");
-/* harmony import */ var moment_locale_th__WEBPACK_IMPORTED_MODULE_13___default = /*#__PURE__*/__webpack_require__.n(moment_locale_th__WEBPACK_IMPORTED_MODULE_13__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _demos_scan_list_main__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../demos/scan/list/main */ "./demos/scan/list/main.js");
+var _this = undefined,
+    _jsxFileName = "/Users/macservicethailand/Desktop/React/reh_scan_test/pages/scans/list.js";
 
 
 
 
-
-
-
-
-
-var _jsxFileName = "/Users/macservicethailand/Desktop/React/reh_scan/pages/scans/list.js";
-
-
-
-
-
-var RangePicker = antd_lib_date_picker__WEBPACK_IMPORTED_MODULE_8___default.a.RangePicker;
-function list() {
-  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_9__["useState"])([]),
-      _useState2 = Object(_babel_runtime_corejs2_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_7__["default"])(_useState, 2),
-      state = _useState2[0],
-      setState = _useState2[1];
-
-  var columns = [{
-    title: "วันที่",
-    dataIndex: "date"
-  }, {
-    title: "เวลา",
-    dataIndex: "time"
-  }, {
-    title: "สถานะ",
-    dataIndex: "status"
-  }, {
-    title: "สถานที่",
-    dataIndex: "location"
-  }];
-  var data = [{
-    key: "1",
-    date: "19 เม.ย. 2564",
-    time: "08:20",
-    status: "เข้า",
-    location: "ศูนย์คอมพิวเตอร์"
-  }, {
-    key: "2",
-    date: "19 เม.ย. 2564",
-    time: "16:20",
-    status: "ออก",
-    location: "ศูนย์คอมพิวเตอร์"
-  }];
-
-  var onChange = function onChange(date, dateString) {
-    console.log(date, dateString);
-  };
-
-  Object(react__WEBPACK_IMPORTED_MODULE_9__["useEffect"])(function () {
-    if (Object(_lib_withauth__WEBPACK_IMPORTED_MODULE_11__["withauth"])() === undefined) {
-      next_router__WEBPACK_IMPORTED_MODULE_10___default.a.push("/signup");
-    }
-
-    setState(Object(_lib_withauth__WEBPACK_IMPORTED_MODULE_11__["withauth"])() || undefined);
-  }, []);
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement(antd_lib_card__WEBPACK_IMPORTED_MODULE_0___default.a, {
-    bodyStyle: {
-      padding: 0
-    },
-    id: "components-button-demo",
-    __self: this,
+var QRCode = function QRCode() {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_demos_scan_list_main__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 62,
-      columnNumber: 5
+      lineNumber: 3,
+      columnNumber: 22
     }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement(antd_lib_divider__WEBPACK_IMPORTED_MODULE_6___default.a, {
-    orientation: "left",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 63,
-      columnNumber: 7
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("small", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 64,
-      columnNumber: 9
-    }
-  }, "\u0E02\u0E49\u0E2D\u0E21\u0E39\u0E25\u0E01\u0E32\u0E23\u0E2A\u0E41\u0E01\u0E19 :", " ", state.label !== undefined ? "".concat(state.label, " (").concat(state.value, ")") : "")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("div", {
-    className: "p-4",
-    style: {
-      textAlign: "center"
-    },
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 69,
-      columnNumber: 7
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement(antd_lib_row__WEBPACK_IMPORTED_MODULE_2___default.a, {
-    gutter: 16,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 70,
-      columnNumber: 9
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement(antd_lib_col__WEBPACK_IMPORTED_MODULE_5___default.a, {
-    xs: 24,
-    sm: 24,
-    md: 20,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 74,
-      columnNumber: 11
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement(RangePicker, {
-    style: {
-      width: "100%"
-    },
-    placeholder: ["วันที่เริ่มต้น", "วันที่สิ้นสุด"],
-    onChange: onChange,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 75,
-      columnNumber: 13
-    }
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement(antd_lib_col__WEBPACK_IMPORTED_MODULE_5___default.a, {
-    xs: 24,
-    sm: 24,
-    md: 4,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 82,
-      columnNumber: 11
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement(antd_lib_button__WEBPACK_IMPORTED_MODULE_3___default.a, {
-    type: "primary",
-    block: true,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 83,
-      columnNumber: 13
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement(react_feather_dist_icons_search__WEBPACK_IMPORTED_MODULE_4___default.a, {
-    size: 20,
-    strokeWidth: 1,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 84,
-      columnNumber: 15
-    }
-  }), " \u0E04\u0E49\u0E19\u0E2B\u0E32")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("div", {
-    className: "p-4",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 89,
-      columnNumber: 7
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement(antd_lib_table__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    columns: columns,
-    dataSource: data,
-    size: "small",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 90,
-      columnNumber: 9
-    }
-  })));
-}
+  });
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (QRCode);
 
 /***/ }),
 
 /***/ 4:
-/*!*****************************************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2Fscans%2Flist&absolutePagePath=%2FUsers%2Fmacservicethailand%2FDesktop%2FReact%2Freh_scan%2Fpages%2Fscans%2Flist.js ***!
-  \*****************************************************************************************************************************************************************/
+/*!**********************************************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2Fscans%2Flist&absolutePagePath=%2FUsers%2Fmacservicethailand%2FDesktop%2FReact%2Freh_scan_test%2Fpages%2Fscans%2Flist.js ***!
+  \**********************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fscans%2Flist&absolutePagePath=%2FUsers%2Fmacservicethailand%2FDesktop%2FReact%2Freh_scan%2Fpages%2Fscans%2Flist.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fscans%2Flist&absolutePagePath=%2FUsers%2Fmacservicethailand%2FDesktop%2FReact%2Freh_scan%2Fpages%2Fscans%2Flist.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fscans%2Flist&absolutePagePath=%2FUsers%2Fmacservicethailand%2FDesktop%2FReact%2Freh_scan_test%2Fpages%2Fscans%2Flist.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fscans%2Flist&absolutePagePath=%2FUsers%2Fmacservicethailand%2FDesktop%2FReact%2Freh_scan_test%2Fpages%2Fscans%2Flist.js!./");
 
 
 /***/ }),

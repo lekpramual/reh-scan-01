@@ -53,7 +53,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var _this = undefined,
-    _jsxFileName = "/Users/macservicethailand/Desktop/React/reh_scan/components/Header.js";
+    _jsxFileName = "/Users/macservicethailand/Desktop/React/reh_scan_test/components/Header.js";
 
 
 
@@ -457,7 +457,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var _this = undefined,
-    _jsxFileName = "/Users/macservicethailand/Desktop/React/reh_scan/components/Page.js";
+    _jsxFileName = "/Users/macservicethailand/Desktop/React/reh_scan_test/components/Page.js";
 
 
 
@@ -640,7 +640,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var _this = undefined,
-    _jsxFileName = "/Users/macservicethailand/Desktop/React/reh_scan/components/SidebarMenu.js",
+    _jsxFileName = "/Users/macservicethailand/Desktop/React/reh_scan_test/components/SidebarMenu.js",
     _templateObject,
     _templateObject2,
     _templateObject3,
@@ -1269,7 +1269,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var _this = undefined,
-    _jsxFileName = "/Users/macservicethailand/Desktop/React/reh_scan/components/shared/AppProvider.js";
+    _jsxFileName = "/Users/macservicethailand/Desktop/React/reh_scan_test/components/shared/AppProvider.js";
 
 
 
@@ -1516,13 +1516,13 @@ __webpack_require__.r(__webpack_exports__);
 
 var DashHeader = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].div.withConfig({
   displayName: "Header__DashHeader",
-  componentId: "sc-10i112g-0"
+  componentId: "ucqi65-0"
 })([".ant-layout-header{position:relative;flex-direction:row;flex-wrap:nowrap;display:flex;align-items:center;min-height:4.286rem;z-index:11;padding:0 1rem;box-shadow:0 2px 2px rgba(0,0,0,0.02),0 1px 0 rgba(0,0,0,0.02);}.trigger{transform:rotate(90deg);margin-right:1rem;}.menu-divider{position:relative;}.menu-divider:before{position:absolute;top:0;left:0;display:inline-block;width:1px;height:100%;content:'';background-color:#f9f9f9;}.brand{display:flex;align-items:center;margin-right:1rem;font-size:1.25rem;white-space:nowrap;}.brand > svg{fill:", ";}.ant-menu{font-family:inherit;line-height:inherit;box-shadow:none;display:inline-block;border:0;margin-bottom:1px;}.ant-menu-item,.ant-menu-item,.ant-menu-submenu-title{padding:0 1rem;}.ant-menu-item,.ant-menu-submenu{top:2px;}.nav-link{display:initial;color:inherit;}.ant-list-header,.ant-list-footer{padding-left:1rem;padding-right:1rem;}"], function (props) {
   return props.theme.primaryColor;
 });
 var Notification = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].div.withConfig({
   displayName: "Header__Notification",
-  componentId: "sc-10i112g-1"
+  componentId: "ucqi65-1"
 })([".ant-list-item{padding-left:1rem;padding-right:1rem;}"]);
 /* harmony default export */ __webpack_exports__["default"] = (DashHeader);
 
@@ -1544,13 +1544,13 @@ __webpack_require__.r(__webpack_exports__);
 
 var Container = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].div.withConfig({
   displayName: "Page__Container",
-  componentId: "sc-1m1pqig-0"
+  componentId: "t6sal6-0"
 })(["display:flex;flex-direction:column;width:100%;height:100%;min-height:100vh;background-color:#f0f0f0;&.boxed{overflow:hidden;margin-right:auto;margin-left:auto;}@media (min-width:992px){&.boxed{max-width:95%;}}.workspace{height:", ";width:100%;display:flex;position:relative;overflow:hidden;max-width:100%;flex-grow:1;flex-direction:row;}.workspace > .ant-layout{overflow-x:hidden;}"], function (props) {
   return "calc(100vh - ".concat(props.theme.layoutHeaderHeight, ")");
 });
 var Inner = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].div.withConfig({
   displayName: "Page__Inner",
-  componentId: "sc-1m1pqig-1"
+  componentId: "t6sal6-1"
 })(["margin:0 auto;padding:1.5rem;position:relative;background-color:#f0f0f0;min-height:", ";"], function (props) {
   return "calc(100vh - ".concat(props.theme.layoutHeaderHeight, ")");
 });
@@ -1571,7 +1571,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var Sidebar = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].div.withConfig({
   displayName: "Sidebar",
-  componentId: "sc-2lcq5s-0"
+  componentId: "sc-1ba6p8w-0"
 })(["height:100%;display:flex;.ant-layout-sider{box-shadow:0 0px 3px rgba(0,0,0,0.02),0 0 1px rgba(0,0,0,0.05);z-index:10;}.ant-menu-item > a{display:flex;align-items:center;}.ant-menu-item .anticon,.ant-menu-submenu-title .anticon{margin-right:1rem;}.ant-layout-sider-zero-width-trigger{z-index:9;}.ant-menu-inline-collapsed .ant-badge{max-width:0;display:inline-block;opacity:0;}.ant-menu-inline .ant-menu-item,.ant-menu-inline .ant-menu-submenu-title{width:calc(100%);}"]);
 /* harmony default export */ __webpack_exports__["default"] = (Sidebar);
 
@@ -1594,7 +1594,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
 
 
-var _jsxFileName = "/Users/macservicethailand/Desktop/React/reh_scan/demos/mock/notifications.js";
+var _jsxFileName = "/Users/macservicethailand/Desktop/React/reh_scan_test/demos/mock/notifications.js";
 
 /* harmony default export */ __webpack_exports__["default"] = ([{
   title: 'John Doe launched a new application',
@@ -1717,7 +1717,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/Users/macservicethailand/Desktop/React/reh_scan/lib/helpers.js",
+var _jsxFileName = "/Users/macservicethailand/Desktop/React/reh_scan_test/lib/helpers.js",
     _templateObject;
 
 
@@ -1876,22 +1876,24 @@ var _StyledSpan = Object(styled_components__WEBPACK_IMPORTED_MODULE_4__["default
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react_feather_dist_icons_bold__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react-feather/dist/icons/bold */ "./node_modules/react-feather/dist/icons/bold.js");
-/* harmony import */ var react_feather_dist_icons_bold__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_feather_dist_icons_bold__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react_feather_dist_icons_droplet__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-feather/dist/icons/droplet */ "./node_modules/react-feather/dist/icons/droplet.js");
-/* harmony import */ var react_feather_dist_icons_droplet__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_feather_dist_icons_droplet__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var react_feather_dist_icons_gift__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-feather/dist/icons/gift */ "./node_modules/react-feather/dist/icons/gift.js");
-/* harmony import */ var react_feather_dist_icons_gift__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_feather_dist_icons_gift__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var react_feather_dist_icons_underline__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-feather/dist/icons/underline */ "./node_modules/react-feather/dist/icons/underline.js");
-/* harmony import */ var react_feather_dist_icons_underline__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_feather_dist_icons_underline__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var react_feather_dist_icons_type__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-feather/dist/icons/type */ "./node_modules/react-feather/dist/icons/type.js");
-/* harmony import */ var react_feather_dist_icons_type__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react_feather_dist_icons_type__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var react_feather_dist_icons_search__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react-feather/dist/icons/search */ "./node_modules/react-feather/dist/icons/search.js");
-/* harmony import */ var react_feather_dist_icons_search__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react_feather_dist_icons_search__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var react_feather_dist_icons_home__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react-feather/dist/icons/home */ "./node_modules/react-feather/dist/icons/home.js");
-/* harmony import */ var react_feather_dist_icons_home__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(react_feather_dist_icons_home__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var react_feather_dist_icons_terminal__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react-feather/dist/icons/terminal */ "./node_modules/react-feather/dist/icons/terminal.js");
+/* harmony import */ var react_feather_dist_icons_terminal__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_feather_dist_icons_terminal__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_feather_dist_icons_bold__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-feather/dist/icons/bold */ "./node_modules/react-feather/dist/icons/bold.js");
+/* harmony import */ var react_feather_dist_icons_bold__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_feather_dist_icons_bold__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react_feather_dist_icons_droplet__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-feather/dist/icons/droplet */ "./node_modules/react-feather/dist/icons/droplet.js");
+/* harmony import */ var react_feather_dist_icons_droplet__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_feather_dist_icons_droplet__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var react_feather_dist_icons_gift__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-feather/dist/icons/gift */ "./node_modules/react-feather/dist/icons/gift.js");
+/* harmony import */ var react_feather_dist_icons_gift__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_feather_dist_icons_gift__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var react_feather_dist_icons_underline__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-feather/dist/icons/underline */ "./node_modules/react-feather/dist/icons/underline.js");
+/* harmony import */ var react_feather_dist_icons_underline__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react_feather_dist_icons_underline__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var react_feather_dist_icons_type__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react-feather/dist/icons/type */ "./node_modules/react-feather/dist/icons/type.js");
+/* harmony import */ var react_feather_dist_icons_type__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react_feather_dist_icons_type__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var react_feather_dist_icons_search__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react-feather/dist/icons/search */ "./node_modules/react-feather/dist/icons/search.js");
+/* harmony import */ var react_feather_dist_icons_search__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(react_feather_dist_icons_search__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var react_feather_dist_icons_home__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react-feather/dist/icons/home */ "./node_modules/react-feather/dist/icons/home.js");
+/* harmony import */ var react_feather_dist_icons_home__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(react_feather_dist_icons_home__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_8__);
 
 
 
@@ -1899,12 +1901,13 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/Users/macservicethailand/Desktop/React/reh_scan/lib/routes.js";
+
+var _jsxFileName = "/Users/macservicethailand/Desktop/React/reh_scan_test/lib/routes.js";
 
 /* harmony default export */ __webpack_exports__["default"] = ([{
   path: "/",
   name: "หน้าแรก",
-  icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_feather_dist_icons_home__WEBPACK_IMPORTED_MODULE_6___default.a, {
+  icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(react_feather_dist_icons_home__WEBPACK_IMPORTED_MODULE_7___default.a, {
     strokeWidth: 1,
     size: 16,
     __self: undefined,
@@ -1916,13 +1919,13 @@ var _jsxFileName = "/Users/macservicethailand/Desktop/React/reh_scan/lib/routes.
   })
 }, {
   name: "สแกน",
-  icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_feather_dist_icons_search__WEBPACK_IMPORTED_MODULE_5___default.a, {
+  icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(react_feather_dist_icons_search__WEBPACK_IMPORTED_MODULE_6___default.a, {
     strokeWidth: 1,
     size: 16,
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 31,
+      lineNumber: 30,
       columnNumber: 11
     }
   }),
@@ -1938,13 +1941,13 @@ var _jsxFileName = "/Users/macservicethailand/Desktop/React/reh_scan/lib/routes.
   }]
 }, {
   name: "Data entry",
-  icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_feather_dist_icons_type__WEBPACK_IMPORTED_MODULE_4___default.a, {
+  icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(react_feather_dist_icons_type__WEBPACK_IMPORTED_MODULE_5___default.a, {
     strokeWidth: 1,
     size: 16,
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 50,
+      lineNumber: 49,
       columnNumber: 11
     }
   }),
@@ -2002,13 +2005,13 @@ var _jsxFileName = "/Users/macservicethailand/Desktop/React/reh_scan/lib/routes.
   }]
 }, {
   name: "Data display",
-  icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_feather_dist_icons_underline__WEBPACK_IMPORTED_MODULE_3___default.a, {
+  icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(react_feather_dist_icons_underline__WEBPACK_IMPORTED_MODULE_4___default.a, {
     strokeWidth: 1,
     size: 16,
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 124,
+      lineNumber: 123,
       columnNumber: 11
     }
   }),
@@ -2057,13 +2060,13 @@ var _jsxFileName = "/Users/macservicethailand/Desktop/React/reh_scan/lib/routes.
   }]
 }, {
   name: "Extras",
-  icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_feather_dist_icons_gift__WEBPACK_IMPORTED_MODULE_2___default.a, {
+  icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(react_feather_dist_icons_gift__WEBPACK_IMPORTED_MODULE_3___default.a, {
     strokeWidth: 1,
     size: 16,
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 186,
+      lineNumber: 185,
       columnNumber: 11
     }
   }),
@@ -2083,13 +2086,13 @@ var _jsxFileName = "/Users/macservicethailand/Desktop/React/reh_scan/lib/routes.
 }, {
   path: "/widgets",
   name: "Widgets",
-  icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_feather_dist_icons_droplet__WEBPACK_IMPORTED_MODULE_1___default.a, {
+  icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(react_feather_dist_icons_droplet__WEBPACK_IMPORTED_MODULE_2___default.a, {
     strokeWidth: 1,
     size: 16,
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 209,
+      lineNumber: 208,
       columnNumber: 11
     }
   }),
@@ -2098,13 +2101,13 @@ var _jsxFileName = "/Users/macservicethailand/Desktop/React/reh_scan/lib/routes.
   }
 }, {
   name: "General elements",
-  icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_feather_dist_icons_bold__WEBPACK_IMPORTED_MODULE_0___default.a, {
+  icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(react_feather_dist_icons_bold__WEBPACK_IMPORTED_MODULE_1___default.a, {
     strokeWidth: 1,
     size: 16,
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 216,
+      lineNumber: 215,
       columnNumber: 11
     }
   }),
@@ -2114,6 +2117,46 @@ var _jsxFileName = "/Users/macservicethailand/Desktop/React/reh_scan/lib/routes.
   }, {
     path: "/general/icon",
     name: "Icon"
+  }]
+}, {
+  name: "Feedback",
+  icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(react_feather_dist_icons_terminal__WEBPACK_IMPORTED_MODULE_0___default.a, {
+    strokeWidth: 1,
+    size: 16,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 229,
+      columnNumber: 11
+    }
+  }),
+  children: [{
+    path: "/feedback/alert",
+    name: "Alert"
+  }, {
+    path: "/feedback/drawer",
+    name: "Drawer"
+  }, {
+    path: "/feedback/modal",
+    name: "Modal"
+  }, {
+    path: "/feedback/message",
+    name: "Message"
+  }, {
+    path: "/feedback/notification",
+    name: "Notification"
+  }, {
+    path: "/feedback/progress",
+    name: "Progress"
+  }, {
+    path: "/feedback/popconfirm",
+    name: "Pop confirm"
+  }, {
+    path: "/feedback/spin",
+    name: "Spin"
+  }, {
+    path: "/feedback/skeleton",
+    name: "Skeleton"
   }]
 }]);
 
@@ -42812,6 +42855,71 @@ exports.default = Settings;
 
 /***/ }),
 
+/***/ "./node_modules/react-feather/dist/icons/terminal.js":
+/*!***********************************************************!*\
+  !*** ./node_modules/react-feather/dist/icons/terminal.js ***!
+  \***********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+var _react2 = _interopRequireDefault(_react);
+
+var _propTypes = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+
+var _propTypes2 = _interopRequireDefault(_propTypes);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _objectWithoutProperties(obj, keys) { var target = {}; for (var i in obj) { if (keys.indexOf(i) >= 0) continue; if (!Object.prototype.hasOwnProperty.call(obj, i)) continue; target[i] = obj[i]; } return target; }
+
+var Terminal = function Terminal(props) {
+  var color = props.color,
+      size = props.size,
+      otherProps = _objectWithoutProperties(props, ['color', 'size']);
+
+  return _react2.default.createElement(
+    'svg',
+    _extends({
+      xmlns: 'http://www.w3.org/2000/svg',
+      width: size,
+      height: size,
+      viewBox: '0 0 24 24',
+      fill: 'none',
+      stroke: color,
+      strokeWidth: '2',
+      strokeLinecap: 'round',
+      strokeLinejoin: 'round'
+    }, otherProps),
+    _react2.default.createElement('polyline', { points: '4 17 10 11 4 5' }),
+    _react2.default.createElement('line', { x1: '12', y1: '19', x2: '20', y2: '19' })
+  );
+};
+
+Terminal.propTypes = {
+  color: _propTypes2.default.string,
+  size: _propTypes2.default.oneOfType([_propTypes2.default.string, _propTypes2.default.number])
+};
+
+Terminal.defaultProps = {
+  color: 'currentColor',
+  size: '24'
+};
+
+exports.default = Terminal;
+
+/***/ }),
+
 /***/ "./node_modules/react-feather/dist/icons/type.js":
 /*!*******************************************************!*\
   !*** ./node_modules/react-feather/dist/icons/type.js ***!
@@ -49961,7 +50069,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/Users/macservicethailand/Desktop/React/reh_scan/pages/_app.js";
+var _jsxFileName = "/Users/macservicethailand/Desktop/React/reh_scan_test/pages/_app.js";
 
 
 function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function _createSuperInternal() { var Super = Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_8__["default"])(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_8__["default"])(this).constructor; result = _babel_runtime_corejs2_core_js_reflect_construct__WEBPACK_IMPORTED_MODULE_0___default()(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_7__["default"])(this, result); }; }

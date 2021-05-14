@@ -44,7 +44,7 @@
   },
   "scripts": {
     "dev": "next dev",
-    "export": "next export",
+    "export": "next export && touch out/.nojekyll",
     "build": "next build",
     "start": "next start"
   },
