@@ -43,8 +43,13 @@
     "xhr2": "0.1.4"
   },
   "scripts": {
-    "dev": "next",
+    "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start -p $PORT",
+    "heroku-postbuild": "npm run build"
+  },
+  "engines": {
+    "node": "v14.16.1",
+    "npm": "6.14.12"
   }
 }
