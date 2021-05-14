@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([["8809"],{Bs84:function(n,t,a){"use strict";a.r(t);var e=a("q1tI"),u=a.n(e);t.default=function(){return u.a.createElement("p",null,"Blank")}},FBvx:function(n,t,a){(window.__NEXT_P=window.__NEXT_P||[]).push(["/extras/blank",function(){var n=a("Bs84");return{page:n.default||n}}])}},[["FBvx","5d41","9da1"]]]);
